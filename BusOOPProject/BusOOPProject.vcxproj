@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClInclude Include="Bus.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="manager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

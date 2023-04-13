@@ -22,7 +22,12 @@ public:
 		place = plce;
 	}
 
-	int cost_place(int cost, int place) {
-		return cost / place;
+	string convert() {
+		string msg = "Bus: ";
+		msg += "\nBrand: " + brand;
+		msg += ", state number:  " + number;
+		msg += "\nCost: " + to_string(cost);
+		msg += ", place: " + to_string(place);
+		return msg;
 	}
 };
